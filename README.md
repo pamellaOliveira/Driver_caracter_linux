@@ -1,7 +1,7 @@
 # Driver_caracter_linux
 
-#comandos 
-#Criar módulo 
+#comandos#     
+#Criar módulo #   
 make -C /lib/modules/$(uname -r)/build M=$PWD modules
 
 #Vê se criou o modulo#    
