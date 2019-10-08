@@ -15,7 +15,7 @@ lsmod | grep pamella
 cat /proc/modules
 
 #Criar Devices#   
-sudo mknod -m 666 /dev/3_driver_pamella c 185 0
+sudo mknod -m 666 /dev/3_drive_pamella c 185 0
 
 #Monitorar sistema#   
 sudo tail -f /var/log/syslog
@@ -24,4 +24,4 @@ sudo tail -f /var/log/syslog
 cat /dev/3_driver_pamella
 
 #Abrir outro terminal e mandar mensagem#    
-echo "teste" > /dev/3_driver_pamella
+echo "teste" > /dev/3_drive_pamella
